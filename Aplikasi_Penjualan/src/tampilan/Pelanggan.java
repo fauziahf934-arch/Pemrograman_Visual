@@ -152,6 +152,8 @@ private void txtcariKeyPressed(java.awt.event.KeyEvent evt) {
         bcari.setText("Cari");
         bcari.addActionListener(this::bcariActionPerformed);
 
+        txtid.addActionListener(this::txtidActionPerformed);
+
         tblplgn.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -414,6 +416,10 @@ private void txtcariKeyPressed(java.awt.event.KeyEvent evt) {
         txttelp.setText(d);
         txtalamat.setText(e);
     }//GEN-LAST:event_tblplgnMouseClicked
+
+    private void txtidActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtidActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtidActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
