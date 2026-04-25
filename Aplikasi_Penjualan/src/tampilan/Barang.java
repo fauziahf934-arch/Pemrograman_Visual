@@ -117,6 +117,8 @@ public class Barang extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setText("Jenis");
 
+        kd_brg.addActionListener(this::kd_brgActionPerformed);
+
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setText("Harga Beli");
 
@@ -363,6 +365,10 @@ public class Barang extends javax.swing.JFrame {
         hargajual.setText(e);
                               
     }//GEN-LAST:event_tabelBarangMouseClicked
+
+    private void kd_brgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kd_brgActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_kd_brgActionPerformed
 
     /**
      * @param args the command line arguments
